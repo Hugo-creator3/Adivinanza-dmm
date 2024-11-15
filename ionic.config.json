@@ -1,0 +1,7 @@
+{
+  "name": "adivinanza_dmm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
