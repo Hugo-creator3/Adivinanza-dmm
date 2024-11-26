@@ -1,0 +1,62 @@
+.custom-background {
+    background: radial-gradient(circle at center, #1d2671, #c33764);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .custom-toolbar {
+    --background: rgba(0, 0, 0, 0.6);
+    --color: #fff;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-back-button {
+    --color: #fff;
+    --background-hover: rgba(255, 255, 255, 0.1);
+  }
+  
+  .custom-title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .custom-list {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .custom-item {
+    --background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-rank {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .custom-label {
+    color: #fff;
+  }
+  
+  .custom-stats {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  .custom-points {
+    font-size: 1.2rem;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  

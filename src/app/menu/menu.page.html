@@ -1,26 +1,33 @@
-<ion-content class="ion-padding">
+<ion-content class="ion-padding custom-background">
   <div class="menu-container">
-  <p class="ion-text-center">
-  <ion-text color="primary"><h1><strong>Adivina el numero</strong></h1></ion-text>
-  <ion-text>-- DSM Games --</ion-text>
-  </p>
-  <!-- Opción Jugar -->
-  <ion-card class="menu-option" mode="ios" routerLink="/game" color="primary">
-  <ion-card-header>
-  <ion-card-title>Jugar</ion-card-title>
-  </ion-card-header>
-  </ion-card>
-  <!-- Opción Ranking -->
-  <ion-card class="menu-option" mode="ios" routerLink="/leaderboard" color="warning">
-  <ion-card-header>
-  <ion-card-title>Ranking</ion-card-title>
-  </ion-card-header>
-  </ion-card>
-  <!-- Opción Salir -->
-  <ion-card class="menu-option" mode="ios" routerLink="/login" color="dark">
-    <ion-card-header>
-    <ion-card-title> Salir </ion-card-title>
-    </ion-card-header>
+    <p class="ion-text-center">
+      <ion-text color="primary">
+        <h1 class="custom-title"><strong>Adivina el número</strong></h1>
+      </ion-text>
+      <ion-text>
+        <h3 class="custom-subtitle">-- DSM Games --</h3>
+      </ion-text>
+    </p>
+
+    <!-- Opción Jugar -->
+    <ion-card class="menu-option custom-option play-option" mode="ios" routerLink="/game">
+      <ion-card-header>
+        <ion-card-title>Jugar</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+
+    <!-- Opción Ranking -->
+    <ion-card class="menu-option custom-option rank-option" mode="ios" routerLink="/leaderboard">
+      <ion-card-header>
+        <ion-card-title>Ranking</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+
+    <!-- Opción Salir -->
+    <ion-card class="menu-option custom-option exit-option" mode="ios" routerLink="/login">
+      <ion-card-header>
+        <ion-card-title>Salir</ion-card-title>
+      </ion-card-header>
     </ion-card>
   </div>
 </ion-content>

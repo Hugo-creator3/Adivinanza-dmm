@@ -1,11 +1,58 @@
-.login-container {
+
+  .login-container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100%;
-    }
-   
-    .register-link {
-    text-align: center;
-    margin-top: 10px;
-    }
+  }
+  
+  .custom-card {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+  }
+  
+  .custom-header {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .custom-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom-subtitle {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .custom-item {
+    --background: transparent;
+    --border-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-button {
+    --background: #ff4e50;
+    --background-hover: #ff725e;
+    --border-radius: 50px;
+    --box-shadow: 0 5px 10px rgba(255, 78, 80, 0.5);
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  .register-link a {
+    color: #ff4e50;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .register-link a:hover {
+    color: #ff725e;
+  }

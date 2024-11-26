@@ -1,0 +1,84 @@
+.custom-background {
+    background: radial-gradient(circle at center, #74ebd5, #acb6e5);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  
+  .custom-toolbar {
+    --background: rgba(255, 255, 255, 0.8);
+    --color: #555;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-back-button {
+    --color: #555;
+    --background-hover: rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .custom-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    margin-bottom: 20px;
+  }
+  
+  .custom-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom-text {
+    font-size: 1rem;
+    color: #444;
+    margin: 15px 0;
+  }
+  
+  .custom-item {
+    --background: transparent;
+    --border-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-button {
+    --background: #3498db;
+    --background-hover: #5dade2;
+    --border-radius: 10px;
+    --box-shadow: 0 5px 10px rgba(52, 152, 219, 0.5);
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .custom-button-alt {
+    --background: #bdc3c7;
+    --background-hover: #d5d8dc;
+    --border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .custom-response-card {
+    background: rgba(52, 152, 219, 0.15);
+    border: 1px solid #3498db;
+  }
+  
+  .custom-subtitle {
+    font-size: 1rem;
+    color: #3498db;
+  }
+  

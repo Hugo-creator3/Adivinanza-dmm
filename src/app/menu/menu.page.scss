@@ -1,13 +1,68 @@
-.menu-container {
+.custom-background {
+    background: linear-gradient(135deg, #1d2b64, #f8cdda);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  
+  .menu-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-   }
-   .menu-option {
-    width: 200px;
-    height: 125px;
+    padding: 20px;
+  }
+  
+  .custom-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .custom-subtitle {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: -10px;
+    opacity: 0.8;
+  }
+  
+  .menu-option {
+    width: 100%;
+    max-width: 350px;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    align-content: center;
-   }
+  }
+  
+  .play-option {
+    --background: #ff6b6b;
+    --background-hover: #ff8787;
+    color: #fff;
+  }
+  
+  .rank-option {
+    --background: #feca57;
+    --background-hover: #ffd966;
+    color: #fff;
+  }
+  
+  .exit-option {
+    --background: #2d3436;
+    --background-hover: #636e72;
+    color: #fff;
+  }
+  
+  .menu-option ion-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .menu-option:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+  }
+  
